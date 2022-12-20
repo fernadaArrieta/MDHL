@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    /*background-image: url(../IMG/assets/image2.jpg);*/
+    width: 100%;
+    min-width: 100vh;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    border: solid;
+}
+h1{
+    color: white;
+    margin-left: 5%;
+}
+#logo{
+    height: 10rem;
+    position: absolute;
+    right: 3rem;
+    top: 5rem;
+    border: solid;
+   
+}
+nav{
+    display: flex;
+   text-align: end;
+   justify-content: end;
+    
+   
+}
+a{
+    font-size: 25px;
+    line-height: 2rem;
+    margin: 5px;
+    background-color:lightblue;
+    border-radius: 10%;
+}
+h2{
+    position: absolute;
+    top: 50%;
+    margin-left: 40%;
+    font-style: italic;
+    font-size: 2rem;
+    color: white;
+    
+}
+.sub{
+    display: flex;
+    top: 15rem;
+}
+.texto{
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    margin-left: 33%;
+    
+}
+.cont{
+    position: absolute;
+    top: 40%;
+    left: 8rem;
+    right: 8rem;
+    font-style: inherit;
+    font-size: 20px;
+    color: white;
+    
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+.txt{
+    position: absolute;
+    top: 40%;
+    font-size: 25px;
+    color: white;
+    margin-left: 5%;
+}
+.reglas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    left: 4rem;
+    top: 20rem; 
+}
+.subtitulos{
+    
+    background-color: blue;
+}
+
+
