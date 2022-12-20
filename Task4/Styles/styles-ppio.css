@@ -1,0 +1,247 @@
+
+* :not(ol):not(li):not(fieldset):not(.col1):not(.col2):not(.boton) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-width: 100vh;
+    font-family: sans-serif;
+       
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 100%;
+    background-image:url(../assets/hokey4.jpg);
+    background-position: 50%;
+    background-size: cover;
+}
+nav{
+    position: absolute;
+    top: 17rem;
+}
+main{
+    height:100%;
+    bottom: 3rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    overflow: hidden;
+    min-width: 100vh;
+        
+}
+#logo{
+    height: 10rem;
+    position: absolute;
+    right: 3rem;
+    top: 5rem;
+    
+}
+
+h1{
+    font-size: 40px;
+    font-style: initial;
+    color:aliceblue;
+    text-shadow:1px 3px rgb(92, 91, 91);
+}
+h2{
+    text-align: center;
+    margin: 2rem !important;
+}
+
+h3{
+    margin: 2rem !important;
+    font-weight: 100;
+    font-weight: 600;
+    text-align: center;
+    font-style: oblique;
+       
+}
+p{
+    text-align: center;
+    line-height: 25px;
+    
+}
+
+
+.rules{
+   
+    margin-top: 2rem;
+}
+.boton{
+    text-decoration: none;
+    font-weight:400 ;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(24, 158, 151, 0.616);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 8px;
+    border-color: slategrey;
+    box-shadow: 2px 2px 2px 1px rgb(59, 59, 47);
+   
+
+    
+    }
+    a:hover{
+        color:dimgray
+    }
+    
+.sublista{
+    list-style-type: lower-alpha;
+}
+table, tr, td{
+   font-size: 20px;
+  height: 5rem;
+  text-align: center;
+}
+.sub{
+    text-decoration: underline;
+    margin-top: 2rem;
+}
+
+.form{
+    height: min-content;
+   
+}
+form{
+    left: 2rem;
+    width: 70%;
+    border: rgb(81, 90, 99);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem !important;
+}
+input[type="radio"] {
+    border: 1px dotted #999;
+    border-radius: 0;
+    
+}
+fieldset{
+    border: none;
+   
+}
+.parents{
+    line-height: 25px;
+    text-align: justify;
+    width: 70%;
+}
+legend{
+       font-weight: 600;
+   } 
+.menor{
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+}  
+.elemento1{
+    display: flex;
+    flex-direction:row; 
+  
+        
+      
+}
+
+.col1{
+    display: flex;
+    flex-direction: column;
+     margin: 2rem;        
+     
+     
+}
+.sec{
+    text-align: start;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;   
+  
+}
+label{
+    border: none;
+}
+input{
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 2px solid;
+}
+input[ type="submit"]{
+    font-size: large;
+    background-color: aquamarine;
+    border: solid #333;
+    border-radius: 5px;
+    width: 8rem;
+    
+}    
+.send{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.modal--contenido{
+    background-color: aqua;
+    width: 300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+}
+.modal{
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 1s;
+}
+#miModal1:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+   
+#miModal2:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+#miModal3:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+#miModal4:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+#miModal5:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+#miModal6:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+#miModal7:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+#miModal8:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+#miModal9:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+   
